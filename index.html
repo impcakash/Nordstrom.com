@@ -1,12 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nordstrom</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/index.js" defer></script>
 </head>
-<body>
-    
-</body>
-</html>
 
+<body>
+    <div id="headingbar">
+        <p><b>Shipping outside of the U.S. or Canada?</b><u>Learn About International Shipping</u></p>
+    </div>
+    <div id="navigationbar">
+        <h4>NORDSTROM</h4>
+        <P onclick="">Sale</P>
+        <P>Women</P>
+        <P>Kids</P>
+        <P>YoungAdult</P>
+        <P>Activewear</P>
+        <P>Home</P>
+        <P>Gifts</P>
+        <P>Beauty</P>
+        <P>Designer</P>
+        <P>Brands</P>
+        <P>Sale</P>
+        <a href="signin.html"><button style="background-color: whitesmoke; border-radius: 8px;">SignIn</button></a>
+        <a href="signup.html"><button style="background-color:whitesmoke; border-radius: 8px;">SignUp</button></a>
+        <img src="data:image/png;base64,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"
+            alt="">
+    </div>
+    <div id="tagline">Make it Yours with Faster, Easier Shopping.</div>
+    <div id="createaccountbox"><a href="signup.html"> Sign in or Create an Account </a>
+    </div>
+    <div id="bckgimg">
+        <h3>Yoga, Run, Repeat</h3>
+        <div>Gear designed to move with you—on the mat and on the </div>
+        <div>road—from adidas, Brooks, Sweaty Betty and more</div>
+        <p><u>Explore our Active Guide</u></p>
+    </div>
+    <div id="bckgimg2">
+        <div>Get a $60 Bonus Note!</div>
+        <div>Ends September 28.</div>
+        <div>Don't miss this limited-time offer for new Nordstrom credit cardmembers. Restrictions apply. </div>
+        <div><u>Apply Now</u></div>
+    </div>
+    <div id="tagline2">
+        <h2>Great deals on what you love</h2>
+        <h3>Items you've browsed are on sale
+        </h3>
+    </div>
+    <div id="homeproducts1">
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/27527bfb-e495-4276-a2a5-3126adeb3e86.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div>New!</div>
+            <div>Topman Tonal Cotton Zip Polo</div>
+            <p>INR 2,600/- <button>Add to Cart</button></p>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/2411e43a-48c5-49e6-aaab-77c4016f7f3d.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div>New!</div>
+            <div>Travis Mathew The Zina Polo</div>
+            <p>INR 2,900/- <button>Add to Cart</button></p>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/9f77259a-658c-4ccb-8296-e04d3317c129.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div></div>
+            <div>Nordstrom Techie Smart que</div>
+            <p>INR 1,200/- <button>Add to Cart</button></p>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/213d54f9-ec2b-4eaf-97c8-968cce171dff.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div>New!</div>
+            <div>River Island Slim Fit</div>
+            <p>INR 3,100/- <button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div id="homeproducts2">
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/4dabc2b5-2794-4167-93ac-f7b47e7a11ec.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div></div>
+            <div>Vouri Tech Polo</div>
+            <p>INR 2,200/- <button>Add to Cart</button></p>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/4b20c698-de60-4b72-8942-a639c1c39313.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div>New!</div>
+            <div>Zella Performance Polo</div>
+            <p>INR 2,300/- <button>Add to Cart</button></p>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/e6197731-ca3a-43b6-ac0a-3ae47010eb21.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div>New!</div>
+            <div>Rhone Reign Performace Pollo</div>
+            <p>INR 2,500/- <button>Add to Cart</button></p>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/sr3/b5317895-3c89-495b-9ca5-23510d32d9e0.jpeg?h=200&w=200&dpr=2"
+                alt="">
+            <div></div>
+            <div>Oakely Club House</div>
+            <p>INR 1,900/- <button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div id="tagline3">
+        <h2>Celebrating Latinx Heritage Month</h2>
+    </div>
+    <div id="bckimg3">
+        <img src="https://n.nordstrommedia.com/id/90225812-d935-4aa8-939e-326c4b246bea.jpeg?h=399&w=1240" alt="">
+    </div>
+    <div id="tagline4">
+        <p>SHOP BY CATEGORY</p>
+    </div>
+    <div id="catogeries">
+        <div>
+            <img src="https://n.nordstrommedia.com/id/527b7d79-1633-4cad-a0b2-76a5fb208e61.jpeg?h=363&w=200" alt="">
+            <h4>Women</h4>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/21ecbf01-ee99-4915-8e9f-5fa539fb9389.jpeg?h=363&w=200" alt="">
+            <h4>Designer</h4>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/ccc9698a-a156-482b-a3d7-68adc29af954.jpeg?h=365&w=200" alt="">
+            <h4>Men</h4>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/f477f59e-065c-456f-b8b2-80f6a950775a.jpeg?h=365&w=200" alt="">
+            <h4>Home</h4>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/2f21958a-5c74-4299-a4c4-a3819c693734.jpeg?h=365&w=200" alt="">
+            <h4>Kids</h4>
+        </div>
+        <div>
+            <img src="https://n.nordstrommedia.com/id/6a83c715-5219-4cea-925f-0a1b75afe0df.jpeg?h=365&w=200" alt="">
+            <h4>Beauty</h4>
+        </div>
+    </div>
+    <div id="catogeries2">
+        <div id="innerbox1">
+            <img src="https://n.nordstrommedia.com/id/3b93cfce-7f5a-461d-816a-b12c9c3aed46.jpeg?h=400&w=400" alt="">
+            <h3>Fall's Best Sweaters</h3>
+        </div>
+        <div id="innerbox2">
+            <img src="https://n.nordstrommedia.com/id/sr3/102417df-124b-4fe2-82ae-e790059272c0.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=90&w=200"
+                alt="">
+            <img src=" https://n.nordstrommedia.com/id/sr3/4d86d8f1-84b9-461c-9bfb-86551d031ce3.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=90&w=200"
+                alt="">
+            <img src="https://n.nordstrommedia.com/id/sr3/591d606f-8ca7-4597-b6a9-521fd272b700.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=90&w=100"
+                alt="">
+            <img src="https://n.nordstrommedia.com/id/sr3/d20dc88a-cf01-448d-bab4-bcb6e4caae4d.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=90&w=100"
+                alt="">
+        </div>
+    </div>
+    <div id="bckimg4">
+        <img src="https://n.nordstrommedia.com/id/9ebfbb1b-061f-49f7-a6de-54981b06e00e.jpeg?h=300&w=1308" alt="">
+    </div>
+    <div id="helpbox">
+        <h3>Need HELP?? </h3>
+        <li>Track the Order,Make a Return,Price Adjustment</li>
+        <img src="https://n.nordstrommedia.com/id/92561708-7046-45f1-a4e3-326b285d2080.jpeg?h=201&w=1208" alt="">
+    </div>
+    <div id="bottom_box_main">
+        <diV id="bottom_box">
+            <div id="bottom_box_head">Customer Service</div>
+            <div id="bottom_box_head">About Us</div>
+            <div id="bottom_box_head">Stores & Services</div>
+            <div id="bottom_box_head">Nordstrom Card & Rewards</div>
+            <div id="bottom_box_head">Nordstrom, Inc.</div>
+            <div>Get our apps</div>
+
+            <div>Contact Us</div>
+            <div>Careers</div>
+            <div>Find a Store </div>
+            <div>The Nordy Club Rewards</div>
+            <div>Nordstrom Rack</div>
+            <div></div>
+
+            <div>Order Status</div>
+            <div>Corporate Social Responsibility</div>
+            <div>Free Style Help</div>
+            <div>Pay My Bill</div>
+            <div>Nordstrom Canada</div>
+            <div></div>
+
+            <div>Shipping</div>
+            <div>Diversity, Inclusion & Belonging</div>
+            <div>Alterations & Tailoring</div>
+            <div>Manage My Nordstrom Card</div>
+            <div>Trunk Club</div>
+            <div></div>
+
+            <div>Return Policy & Exchanges</div>
+            <div>Investor Relations</div>
+            <div>Trunk Club</div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>Price Adjustments</div>
+            <div>Press Releases</div>
+            <div>Pop-In Shop</div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>Gift Cards</div>
+            <div>Get Email Updates</div>
+            <div>Virtual Events</div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>FAQ</div>
+            <div>Nordstrom Blog</div>
+            <div>Spa Nordstrom</div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>Product Recalls</div>
+            <div></div>
+            <div>Nordstrom Restaurants</div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>
+                <div class="bottom_box_ind_flag"><img src="https://n.nordstrommedia.com/alias/IN.gif" alt=""></div>
+                &nbsp&nbsp<div class="bottom_box_ind_text">India</div>
+            </div>
+            <div></div>
+            <div>Nordstrom Local</div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>Your Privacy Rights</div>
+            <div>Do Not Sell My Info</div>
+            <div>Terms & Conditions</div>
+            <div>Interest-Based Ads</div>
+            <div>©2021 Nordstrom, Inc.</div>
+            <div></div>
+
+        </diV>
+
+    </div>
+</body>
+
+</html>
