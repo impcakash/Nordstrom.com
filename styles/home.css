@@ -1,0 +1,394 @@
+#headingbar {
+    background-color: black;
+    color: white;
+    height: 35px;
+    text-align: center;
+
+
+}
+
+#headingbar>p {
+    margin-top: 0px;
+    padding-top: 7px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigationbar {
+    display: flex;
+    width: 100%;
+
+}
+
+#navigationbar>p {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(121, 80, 80);
+    margin-bottom: 0px;
+}
+
+#navigationbar>h4 {
+    font-weight: 500;
+    font-size: 33px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 18px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#navigationbar>h4:hover {
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+
+}
+
+#navigationbar>p:hover {
+    text-decoration: 2px underline black;
+}
+
+#navigationbar :nth-child(13) {
+    margin-left: 90px;
+    width: 80px;
+    height: 30px;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+#navigationbar :nth-child(14) {
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+
+#navigationbar :nth-child(2) {
+    color: red;
+}
+
+#navigationbar>img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#tagline {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(56, 55, 55);
+    font-family: 'Karla', sans-serif;
+}
+
+#createaccountbox {
+    border: 1px solid black;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding-top: 5px;
+    color: black;
+}
+
+#createaccountbox:hover {
+    background-color: silver;
+    border: 1px solid silver;
+}
+
+#createaccountbox>a {
+    color: black;
+    text-decoration: none;
+}
+
+#bckgimg {
+    width: 98%;
+    height: 400px;
+    margin: 10px;
+    margin-top: 40px;
+    background-image: url("https://n.nordstrommedia.com/id/865feedd-400e-4878-ab0e-9c36428ee688.jpeg?h=500&w=2000");
+    background-image: cover;
+}
+
+#bckgimg>h3 {
+    padding-top: 150px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#bckgimg>div {
+    margin-left: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+
+}
+
+#bckgimg>p {
+    margin-left: 30px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#bckgimg2 {
+    width: 98%;
+    height: 140px;
+    margin: 10px;
+    margin-top: 40px;
+    background-image: url("https://n.nordstrommedia.com/id/44648fdb-be56-4600-addb-6d3c7ba21f2c.jpeg?h=140&w=1608");
+    background-image: cover;
+}
+
+#bckgimg2>div {
+    text-align: center;
+}
+
+#bckgimg2 :nth-child(1) {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#bckgimg2 :nth-child(2),
+#bckgimg2 :nth-child(3) {
+    font-family: serif;
+    font-size: 15px;
+    color: rgb(43, 33, 33);
+    padding-bottom: 10px;
+}
+
+#tagline2 {
+    margin-top: 60px;
+    color: rgb(11, 13, 15);
+
+}
+
+#tagline2>h2 {
+    font-family: Brandon Text, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+#tagline2>h3 {
+    font-family: Brandon Text, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#homeproducts1 {
+
+    display: flex;
+    height: 500px;
+}
+
+#homeproducts1>div {
+    margin: 2px;
+    width: 25%;
+}
+
+#homeproducts2 {
+    margin-top: 20px;
+    display: flex;
+    height: 500px;
+}
+
+#homeproducts2>div {
+    margin: 2px;
+    width: 25%;
+}
+
+#homeproducts1>div :nth-child(2) {
+    color: red;
+}
+
+#homeproducts1>div :nth-child(3) {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#homeproducts1>div :nth-child(3):hover,
+#homeproducts1>div :nth-child(4):hover {
+    text-decoration: underline rgb(19, 22, 19);
+}
+
+#homeproducts2>div :nth-child(2) {
+    color: red;
+}
+
+#homeproducts2>div :nth-child(3) {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#homeproducts2>div :nth-child(3):hover,
+#homeproducts2>div :nth-child(4):hover {
+    text-decoration: underline rgb(19, 22, 19);
+}
+
+#homeproducts1>div :nth-child(4) {
+    color: rgb(63, 155, 27);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homeproducts2>div :nth-child(4) {
+    color: rgb(63, 155, 27);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homeproducts1>div>p>button,
+#homeproducts2>div>p>button {
+    background-color: silver;
+}
+
+#bckimg3 {
+    margin-top: 60px;
+}
+
+#tagline3 {
+    text-align: center;
+    color: rgb(14, 103, 175);
+    font-family: monospace;
+    margin-top: 50px;
+}
+
+#tagline4 {
+    font-family: Brandon Text, Arial, sans-serif;
+    text-align: center;
+    line-height: 2;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#catogeries {
+    margin: 5px;
+    width: 99%;
+    height: 320px;
+    display: flex;
+}
+
+#catogeries>div {
+    width: 15.5%;
+    height: 320px;
+    margin: 5px;
+}
+
+#catogeries>div :nth-child(2) {
+    text-align: center;
+    margin-top: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+#catogeries2 {
+    width: 99%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#catogeries2>#innerbox1 {
+
+    width: 49%;
+    height: 380px;
+    margin: 5px;
+
+}
+
+#catogeries2>#innerbox2 {
+
+    width: 49%;
+    height: 380px;
+    margin: 5px;
+}
+
+#innerbox1>img {
+    margin-left: 100px;
+}
+
+#innerbox1>h3 {
+    text-align: center;
+    text-decoration: dotted;
+    color: cadetblue;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#innerbox2>img {
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+#bckimg4>img {
+    margin-top: 80px;
+    width: 99%;
+}
+
+#helpbox {
+    width: 99%;
+    height: 300px;
+    margin: 30px 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace
+}
+
+#helpboxe>img {
+    width: 99%;
+    height: 150px
+}
+
+#bottom_box_main {
+    /* border: 2px solid teal; */
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+#bottom_box {
+    padding-left: 1%;
+    padding-top: 2%;
+    width: 99%;
+    height: 440px;
+    font-family: "Brandon Text", Arial, sans-serif;
+    /* border: 2px solid blue; */
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 13% 14% 14% 13% 13% 22%;
+}
+
+#bottom_box>div {
+    color: #393939;
+    font-family: "Brandon Text", Arial, sans-serif;
+    font-size: 12px;
+    /* border: 1px solid fuchsia; */
+}
+
+#bottom_box_head {
+    font-weight: 700;
+}
+
+.button_add_to_cart {
+    padding-left: 79%;
+    padding-top: 12%;
+}
+
+.bottom_box_ind_text {
+    display: inline-block;
+}
+
+.bottom_box_ind_flag {
+    display: inline-block;
+}
