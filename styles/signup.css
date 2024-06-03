@@ -41,3 +41,88 @@
 #navigationbar>p:hover {
     text-decoration: 2px underline black;
 }
+
+#signupbox {
+    width: 40%;
+    height: 400px;
+    margin-left: 30%;
+}
+
+button {
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+input {
+    width: 250px;
+    height: 22px
+}
+
+label {
+    font-weight: 400;
+    font-family: monospace;
+    font-size: 18px;
+
+}
+
+form>p {
+    font-size: 14px;
+}
+
+form {
+    margin-left: 150px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+#bottom_box_main {
+    /* border: 2px solid teal; */
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+#bottom_box {
+    padding-left: 1%;
+    padding-top: 2%;
+    width: 99%;
+    height: 440px;
+    font-family: "Brandon Text", Arial, sans-serif;
+    /* border: 2px solid blue; */
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 13% 14% 14% 13% 13% 22%;
+}
+
+#bottom_box>div {
+    color: #393939;
+    font-family: "Brandon Text", Arial, sans-serif;
+    font-size: 12px;
+    /* border: 1px solid fuchsia; */
+}
+
+#bottom_box_head {
+    font-weight: 700;
+}
+
+.button_add_to_cart {
+    padding-left: 79%;
+    padding-top: 12%;
+}
+
+.bottom_box_ind_text {
+    display: inline-block;
+}
+
+.bottom_box_ind_flag {
+    display: inline-block;
+}
