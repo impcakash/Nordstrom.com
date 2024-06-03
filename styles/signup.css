@@ -1,0 +1,43 @@
+#headingbar {
+    background-color: black;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+#headingbar>p {
+    margin-top: 0px;
+    padding-top: 7px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigationbar {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#navigationbar>p {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(121, 80, 80);
+    margin-bottom: 0px;
+}
+
+#navigationbar>a>h4 {
+    font-weight: 500;
+    font-size: 33px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 18px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+}
+
+
+#navigationbar>p:hover {
+    text-decoration: 2px underline black;
+}
