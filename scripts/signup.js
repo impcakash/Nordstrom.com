@@ -23,3 +23,15 @@ function signup(e) {
     localStorage.setItem("users", JSON.stringify(arr));
 }
 
+function createAccount() {
+    let myForm = document.getElementById("myForm");
+    let btn = myForm.btn.value;
+    let password = myForm.password.value;
+    if (password.length >= 6) {
+        alert("Account Created Successfully");
+        window.location.href = "signin.html";
+    } else {
+        alert("Password Length should be greater than 5 characters");
+        window.location.href = "signup.html";
+    }
+}
