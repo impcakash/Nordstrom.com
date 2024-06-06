@@ -1,0 +1,145 @@
+#headingbar {
+    background-color: black;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+#headingbar>p {
+    margin-top: 0px;
+    padding-top: 7px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigationbar {
+    display: flex;
+    width: 100%;
+
+}
+
+#navigationbar>p {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: rgb(121, 80, 80);
+    margin-bottom: 0px;
+}
+
+#navigationbar>a>h4 {
+    font-weight: 500;
+    font-size: 33px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 18px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+}
+
+
+#navigationbar>p:hover {
+    text-decoration: 2px underline black;
+}
+
+#signinbox {
+    width: 30%;
+    height: 350px;
+    margin-left: 35%;
+    margin-top: 3%;
+
+}
+
+#signinbox>.logindetails {
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+#signinbox>form>label {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#signinbox>.login {
+    width: 70%;
+    height: 30px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#signinbox>form>.privacytext {
+    font-size: 13px;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#signinbox>form>#email {
+    width: 70%;
+    height: 20px;
+    margin-left: 50px;
+}
+
+#signinbox>form>#password {
+    width: 70%;
+    height: 20px;
+    margin-left: 50px;
+}
+
+#signinbox>form>button {
+    width: 275px;
+    background-color: black;
+    height: 35px;
+    margin-left: 45px;
+    color: blanchedalmond;
+}
+
+#bottom_box_main {
+    /* border: 2px solid teal; */
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+#bottom_box {
+    padding-left: 1%;
+    padding-top: 2%;
+    width: 99%;
+    height: 440px;
+    font-family: "Brandon Text", Arial, sans-serif;
+    /* border: 2px solid blue; */
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 13% 14% 14% 13% 13% 22%;
+}
+
+#bottom_box>div {
+    color: #393939;
+    font-family: "Brandon Text", Arial, sans-serif;
+    font-size: 12px;
+    /* border: 1px solid fuchsia; */
+}
+
+#bottom_box_head {
+    font-weight: 700;
+}
+
+.button_add_to_cart {
+    padding-left: 79%;
+    padding-top: 12%;
+}
+
+.bottom_box_ind_text {
+    display: inline-block;
+}
+
+.bottom_box_ind_flag {
+    display: inline-block;
+}
