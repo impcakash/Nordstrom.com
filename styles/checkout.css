@@ -1,0 +1,49 @@
+#container {
+    max-width: 1200px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+}
+
+#box1 {
+    flex-basis: 68%;
+    margin-left: 1%;
+}
+
+.email,
+.address {
+    width: 98%;
+}
+
+.firstname,
+.lastname,
+.address2,
+.PostalCode,
+.city,
+.region,
+.phone {
+    width: 47.75%;
+}
+
+#india {
+    width: 47.75%;
+}
+
+table {
+    background: #FFFFFF
+}
+
+.continue {
+    background: #000;
+    color: #FFFFFF;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+#box2 {
+    flex-basis: 28%;
+    margin-left: 2%;
+    background: #F4F4F4;
+}
