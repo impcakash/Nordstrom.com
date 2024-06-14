@@ -1,0 +1,71 @@
+* {
+    margin: 1%;
+    padding: 0;
+}
+
+.shopping_bag {
+    height: 25px;
+    float: right;
+    margin-top: 1%;
+}
+
+.nordStorm {
+    display: inline-block;
+}
+
+#container {
+    max-width: 1200px;
+
+}
+
+#box1 {
+    border-top: 1px solid;
+}
+
+#box2 {
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.Delivery {
+    margin-bottom: -2%
+}
+
+#DLv {
+    border-top: 1px solid;
+}
+
+.box2_div1,
+.box2_div2 {
+    flex-basis: 45%;
+    margin-left: 2%;
+
+}
+
+#payment {
+    border-bottom: 1px dashed;
+}
+
+#credit {
+    width: 50%;
+}
+
+#Place_Order {
+    width: 30%;
+    margin-left: 30%;
+    height: 30px;
+    background-color: black;
+    color: white
+}
+
+.receipt {
+    text-align: center;
+}
+
+#last_div {
+    border-bottom: 1px solid;
+}
+
+.description {
+    text-align: center;
+}
